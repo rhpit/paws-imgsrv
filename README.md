@@ -3,9 +3,9 @@
 PAWS Image service is a third-party web-service application with RESTAPI and 
 simple web-UI interface that works like an internal web repository for Windows 
 QCOW images pre-configured and ready to be consumed by 
-[PAWS] (https://github.com/rhpit/paws)
+[PAWS](https://github.com/rhpit/paws)
 
-It is an optional component for [PAWS] (https://github.com/rhpit/paws) and does 
+It is an optional component for [PAWS](https://github.com/rhpit/paws) and does 
 not require PAWS installed at the same system it is running. 
 
 The purpose of PAWS Image service is to allow you to manage your internal 
