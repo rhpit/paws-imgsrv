@@ -1,0 +1,14 @@
+## paws image service
+Flask
+uWSGI
+# required by code analyzer
+pep8
+pylint
+pytest
+## extra neede by paws
+paramiko
+pywinrm
+ansible
+click
+clint
+shade

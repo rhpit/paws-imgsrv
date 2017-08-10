@@ -1,0 +1,12 @@
+resources:
+- id: e8b487c0-a151-4618-bd2b-832b583a87b1
+  keypair: key
+  name: test
+  private_v4: 172.16.5.83
+  provider: libvirt
+  public_v4: 10.8.173.201
+  ssh_key_file: /usr/share/paws/key
+  win_password: my_password@2016
+  win_username: Administrator
+
+

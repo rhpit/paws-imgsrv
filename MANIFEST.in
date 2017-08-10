@@ -1,0 +1,11 @@
+graft imgsrv/templates
+graft imgsrv/static
+
+include setup.py
+include README.md MANIFEST.in
+recursive-exclude tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.pyc
+recursive-exclude * *.pyo
+recursive-exclude * *.orig
+recursive-exclude doc *

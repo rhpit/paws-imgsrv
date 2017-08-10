@@ -1,0 +1,54 @@
+Name: 			imgsrv
+Version:		@RPM_VERSION@
+Release:		@RPM_RELEASE@
+
+Summary:		PAWS web-service for Libvirt QCOW Windows images
+Group:			Development/Libraries
+License:		GPL
+URL:			https://github.com/rhpit/paws-imgsrv
+Source0:		https://github.com/rhpit/paws-imgsrv/tarball/%{name}-%{version}-%{release}.tar.gz
+
+BuildArch:		noarch
+Requires:		redhat-release
+Requires:		python-pip
+Requires:		python-devel
+Requires:		gcc
+Requires:		Flask
+BuildRequires:		python-setuptools
+
+%global debug_package %{nil}
+
+%description
+PAWS Image service is a third-party web-service application with RESTAPI and 
+simple web-UI interface that works like an internal web repository for Windows 
+QCOW images pre-configured and ready to be consumed by PAWS running Windows 
+systems locally on virtual machines on Libvirt QEMU-KVM as provider.
+
+%prep
+%setup -q -n %{name}
+
+%build
+%{__python} setup.py build
+
+%install
+%{__python} setup.py install -O1 --skip-build --root %{buildroot}
+
+%files
+%defattr(755,root,root,755)
+%{python_sitelib}/paws-imgsrv*
+%attr (755,root,root)/usr/bin/paws-imgsrv
+%doc README.rst
+%doc AUTHORS
+
+%post
+echo
+echo "-------------------------------------------------------"
+echo "Ready to run the web-service, check systemctl"
+echo "-------------------------------------------------------"
+echo
+
+%changelog
+* Wed Aug 08 2017 Eduardo Cerqueira <eduardomcerqueira@gmail.com>
+- updated build process to go to github
+* Thu MAR 01 2017 Eduardo Cerqueira <eduardomcerqueira@gmail.com>
+- initial build

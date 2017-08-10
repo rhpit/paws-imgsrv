@@ -1,0 +1,11 @@
+# info to display at footer section of web pages
+[footer]
+doc=http://myserver/paws/doc
+irc=irc://irc.server.com/PAWS
+email=contact@me.com
+jira=http://jira_url/paws
+bugzilla=http://bugzilla_url/paws
+
+# location of your qcow and files related 
+[qcow_repo]
+path=/home/$USER/Downloads
