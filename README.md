@@ -149,6 +149,18 @@ make codecheck
 To report an issue that can be ideas or suggestions for new features, or even
 a bug, please follow github https://help.github.com/articles/creating-an-issue/
 
+## Screenshots
+
+Home-page
+
+![Preview](https://github.com/rhpit/paws-imgsrv/raw/master/imgsrv/static/images/screenshot_3.png)
+
+Listing images from internal repository
+![Preview](https://github.com/rhpit/paws-imgsrv/raw/master/imgsrv/static/images/screenshot_1.png)
+
+![Preview](https://github.com/rhpit/paws-imgsrv/raw/master/imgsrv/static/images/screenshot_1.png)
+
+
 ## License
 
 It is under GNU GENERAL PUBLIC LICENSE version 3.0 as you have received a local
