@@ -156,7 +156,7 @@ Home-page
 ![Preview](https://github.com/rhpit/paws-imgsrv/raw/master/imgsrv/static/images/screenshot_3.png)
 
 Listing images from internal repository
-![Preview](https://github.com/rhpit/paws-imgsrv/raw/master/imgsrv/static/images/screenshot_1.png)
+![Preview](https://github.com/rhpit/paws-imgsrv/raw/master/imgsrv/static/images/screenshot_2.png)
 
 ![Preview](https://github.com/rhpit/paws-imgsrv/raw/master/imgsrv/static/images/screenshot_1.png)
 
